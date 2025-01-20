@@ -270,19 +270,26 @@ footer{
 @media screen and (max-width:576px) {
     .navbar {
         flex-direction: column;
+        text-align: center;
+      
     }
     .navbar .brand-logo{
         font-size: 1.2rem;
-        padding: 10px 25px;
+        padding: 10px 60px;
+        
        
     }
     .list-item{
         /* flex-direction: column; */
-        gap: 10px;
+        /* gap: 10px; */
         font-size: 0.7rem;
-        margin-left: 10px;
+        margin: 0 auto;
+        text-align: center;
         
     }
+    /* .list-item  a{
+        text-align: center;
+    } */
 
         /* hero container */
         .hero-container{
@@ -292,9 +299,10 @@ footer{
             text-align: center;
         }
 
-        .hero-content h2{
+        .hero-content .hero-tittle{
             font-size: 1.2rem;
             line-height: 2rem;
+            text-align: center;
 
         }
 
@@ -317,6 +325,9 @@ footer{
             color: blueviolet;
             font-weight: 700;
             
+        }
+        .list-item{
+            text-align: center;
         }
        
         
